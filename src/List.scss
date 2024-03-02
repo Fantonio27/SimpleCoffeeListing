@@ -1,0 +1,4 @@
+@use 'app' with (
+  $black: red,
+  $border-radius: 0.1rem
+);
