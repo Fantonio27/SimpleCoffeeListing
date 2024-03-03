@@ -96,7 +96,7 @@ body{
   font-family: $fontFamily;
   font-size: 0.875rem;
   border: 0px;
-  font-weight: 300;
+  font-weight: 500;
   border-radius: 7px;
   background-color: transparent;
   cursor: pointer;
@@ -165,10 +165,9 @@ body{
     position: absolute;
     border-radius: 20px;
     font-size: 10px;
-    font-weight: bolder;
+    font-weight: bold;
     padding: 4px 12px;
     margin: 8px;
-    letter-spacing: 1px;
 
     @include colorPalette("yellow");
     @include colorPalette("black", text);
