@@ -44,7 +44,7 @@ function App() {
 
         <div className="coffeeContainer">
         {
-          products.filter((product: Product["data"]) => activeNo == 0? product.id != -1 : product.available == true).map((product, index)=> {
+          products.filter((product: Product["data"]) => activeNo == 0? product.id != -1 : product.available == true).map((product)=> {
             return(
               <Card data={product}/>
             )
