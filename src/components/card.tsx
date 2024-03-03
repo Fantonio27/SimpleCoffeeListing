@@ -3,7 +3,7 @@ import starIconFilled from "../assets/Star_fill.svg"
 import starIconEmpty from "../assets/Star.svg"
 
 const Card = ({ data }: Product) => {
-  const { id, name, image, popular, price, rating, votes, available} = data;
+  const {name, image, popular, price, rating, votes, available} = data;
 
   const star = votes == 0? starIconEmpty : starIconFilled;
 
